@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f0; /* Light green background */
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#hero {
+    background-color: #4CAF50; /* Green hero */
+    color: white;
+    text-align: center;
+}
+
+#about, #skills {
+    background-color: white;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
